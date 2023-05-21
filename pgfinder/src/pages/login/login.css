@@ -1,0 +1,81 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(222, 182, 182);
+  }
+  
+  .login-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+  }
+  
+  .login-head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-head h1{
+    background-color :#3f0707;
+    font-size: 35px;
+    color:rgb(222, 182, 182) ;
+    
+  }
+
+  .login-head p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .login-head img{
+    height: 180px;
+  }
+
+  .login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .login-btn {
+    display: flex;
+    align-items: center;
+    background-color: #edcece;
+    color: #3f0707;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+  }
+  
+  .login-btn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .login-btn p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+  
+  .login-btn:hover{
+    background:rgb(222, 182, 182);
+    border: none;
+    color: #3f0707;
+  }
+  
+  .right-image {
+    margin-left: 300px; 
+  }
+  
+  .right-image img {
+    max-width: 70%;
+    max-height: 100%;
+    transform: rotate(90deg);
+    border-radius: 30px;
+  }
+  

@@ -1,0 +1,82 @@
+.hero{
+    min-height: 200vh;
+    background-color: rgb(222, 182, 182);
+}
+.nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    float: left;
+    padding-left: 80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right{
+  float: left;
+  padding-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-left img{
+    height: 180px;
+    object-fit: contain;
+    
+}
+.nav-right a{
+    text-decoration: none;
+    border: 2px solid #3f0707;
+    border-radius: 20px;
+    padding: 10px 60px;
+    color: #3f0707;
+    font-size: 17px;
+}
+.nav-right a:hover{
+    background: #3f0707;
+    color: white;
+}
+.hero-cont{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 100px 80px;
+    align-items: center;
+    height: 100%;
+}
+.hero-left{
+    flex: 1;
+    text-align: left;
+    margin-left: 50px;
+}
+.hero-right{
+    flex: 1;
+
+    
+}
+.hero-left h1{
+    font-family: poppins;
+    font-size: 50px;
+}
+.hero-right img{
+    width: 100%;
+    border-radius: 20px;
+}
+.hero-left a{
+    background: #3f0707;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+.hero-left a:hover{
+    background:none;
+    border: 2px solid black;
+    color: black;
+}
